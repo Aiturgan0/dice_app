@@ -30,7 +30,7 @@ class _DiceHomePageState extends State<DiceHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 400),
+                  duration: const Duration(milliseconds: 500),
                   transitionBuilder: (child, animation) {
                     return ScaleTransition(scale: animation, child: child);
                   },
