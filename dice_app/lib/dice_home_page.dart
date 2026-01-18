@@ -62,7 +62,7 @@ class _DiceHomePageState extends State<DiceHomePage> {
             ),
 
             const SizedBox(height: 40),
-
+            // Yrgyt Button
             ElevatedButton(
               onPressed: yrgyt,
               style: ElevatedButton.styleFrom(
